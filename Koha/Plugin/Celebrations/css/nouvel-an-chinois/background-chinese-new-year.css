@@ -1,0 +1,7 @@
+body {
+    background-image: url('/api/v1/contrib/Celebrations-api/static/images/background-chinese-new-year.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}

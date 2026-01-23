@@ -50,6 +50,7 @@
       "saint-valentin": "Valentine's Day",
       "paque": "Easter",
       "feux-artifice": "Fireworks",
+      "nouvel-an-chinois": "Chinese New Year",
       "debut": "Start date:",
       "fin": "End date:"
     },
@@ -128,6 +129,14 @@
     "feux-artifice": {
       "couleur_feux": "Enable fireworks colors 🟣 ⚫ 🟢",
       "animation_feux": "Enable fireworks animation 🎆"
+    },
+
+    "nouvel-an-chinois": {
+      "couleur_chinois": "Enable Chinese new year colors 🔴🟡",
+      "background_chinois": "Enable background 🌆",
+      "swing_light_chinois": "Enable swing light 🔆",
+      "mouse_trail_chinois" : "Enable mouse trail 🖱️ ",
+      "logo_chinois" : "Change page logo🏠︎"
     },
 
     "option_vitesse": [

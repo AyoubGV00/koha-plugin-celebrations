@@ -1,0 +1,158 @@
+
+
+/*
+    Section : Swing light
+    Attribution :
+      Code inspiré, modifié et adapté pour l'OPAC de Koha à partir du Pen original sur CodePen.io.
+      Copyright (c) charleslai1994 - https://codepen.io/charleslai1994/pen/JxPyPV
+*/
+
+.newyear-top {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: fit-content; 
+  background: white;
+  overflow: visible;
+  z-index: 1;
+}
+
+#moresearches {
+  z-index: 2;
+}
+
+.newyear-top .decoration {
+  position: absolute; 
+  width: 42px;
+  height: 100px;
+  transform-origin: 50% top;
+  animation: swing-light infinite 1s alternate-reverse;
+}
+
+.newyear-top .decoration1 {
+  top: 10px;
+  left: 160px;
+  background: url(https://i.postimg.cc/R0wjWnTh/newyear-decoration-01.png) no-repeat;
+}
+
+.newyear-top .decoration2 {
+  top: 10px;
+  left: 240px;
+  background: url(https://i.postimg.cc/4yxM22RH/newyear-decoration-02.png) no-repeat;
+}
+
+.newyear-top .decoration3 {
+  top: 10px;
+  left: 960px;
+  background: url(https://i.postimg.cc/DZFRLyCg/newyear-decoration-03.png) no-repeat;
+}
+
+.newyear-top .decoration4 {
+  top: 10px;
+  left: 1040px;
+  background: url(https://i.postimg.cc/26wMwRMf/newyear-decoration-04.png) no-repeat;
+}
+
+div .col {
+  margin-bottom: 20px;
+
+}
+
+
+/* Animation Swing Light */
+
+@-webkit-keyframes swing-light {
+  0% {
+    -webkit-transform: rotate(10deg);
+    transform: rotate(5deg);
+  }
+  10% {
+    -webkit-transform: rotate(8deg);
+    transform: rotate(4deg);
+  }
+  20% {
+    -webkit-transform: rotate(6deg);
+    transform: rotate(3deg);
+  }
+  30% {
+    -webkit-transform: rotate(4deg);
+    transform: rotate(2deg);
+  }
+  40% {
+    -webkit-transform: rotate(2deg);
+    transform: rotate(1deg);
+  }
+  50% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  60% {
+    -webkit-transform: rotate(2deg);
+    transform: rotate(1deg);
+  }
+  70% {
+    -webkit-transform: rotate(4deg);
+    transform: rotate(2deg);
+  }
+  80% {
+    -webkit-transform: rotate(6deg);
+    transform: rotate(3deg);
+  }
+  90% {
+    -webkit-transform: rotate(8deg);
+    transform: rotate(4deg);
+  }
+  100% {
+    -webkit-transform: rotate(10deg);
+    transform: rotate(5deg);
+  }
+}
+/* Animation Swing Light */
+
+@keyframes swing-light {
+  0% {
+    -webkit-transform: rotate(10deg);
+    transform: rotate(5deg);
+  }
+  10% {
+    -webkit-transform: rotate(8deg);
+    transform: rotate(4deg);
+  }
+  20% {
+    -webkit-transform: rotate(6deg);
+    transform: rotate(3deg);
+  }
+  30% {
+    -webkit-transform: rotate(4deg);
+    transform: rotate(2deg);
+  }
+  40% {
+    -webkit-transform: rotate(2deg);
+    transform: rotate(1deg);
+  }
+  50% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  60% {
+    -webkit-transform: rotate(2deg);
+    transform: rotate(1deg);
+  }
+  70% {
+    -webkit-transform: rotate(4deg);
+    transform: rotate(2deg);
+  }
+  80% {
+    -webkit-transform: rotate(6deg);
+    transform: rotate(3deg);
+  }
+  90% {
+    -webkit-transform: rotate(8deg);
+    transform: rotate(4deg);
+  }
+  100% {
+    -webkit-transform: rotate(10deg);
+    transform: rotate(5deg);
+  }
+}

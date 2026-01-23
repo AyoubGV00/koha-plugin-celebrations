@@ -151,5 +151,35 @@
         }
       }
     }
+  },
+  "nouvel-an-chinois": {
+    "font_url": "https://fonts.googleapis.com/css2?family=Eater&display=swap",
+    "elements": {
+      "couleurs": {
+        "setting": "couleur_chinois",
+        "file": "nouvel-an-chinois-color",
+         "type": "css"
+      },
+      "background_js": {
+        "setting": "background_chinois",
+        "file": "background-chinese-new-year",
+        "type": "both"
+      },
+      "swing_light" :{
+        "setting": "swing_light_chinois",
+        "file": "nouvel-an-chinois-Swing-Light",
+        "type": "both"
+      },
+      "fire_trail" :{
+        "setting": "mouse_trail_chinois",
+        "file": "mouse-trail-chinese-new-year",
+        "type": "both"
+      },
+      "logo" :{
+        "setting": "logo_chinois",
+        "file": "chinese-new-year-logo",
+        "type": "js"
+      }
+    }
   }
 }
