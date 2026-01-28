@@ -50,7 +50,6 @@
       "saint-valentin": "Saint-Valentin",
       "paque": "Pâques",
       "feux-artifice": "Feux d’artifice",
-      "nouvel-an-chinois": "Nouvel an chinois",
       "debut": "Date de début :",
       "fin": "Date de fin :"
     },
@@ -128,14 +127,6 @@
     "feux-artifice": {
       "couleur_feux": "Activer les couleurs des feux d’artifice 🟣 ⚫ 🟢",
       "animation_feux": "Activer l’animation de feux d’artifice 🎆"
-    },
-
-    "nouvel-an-chinois": {
-      "couleur_chinois": "Activer les couleurs du nouvel an chinois 🔴🟡",
-      "background_chinois": "Activer le fond d'écran 🌆",
-      "swing_light_chinois": "Activer les lumières suspendues 🔆",
-      "mouse_trail_chinois" : "Activer l'effet de trainée de la souris 🖱️ ",
-      "logo_chinois" : "Changer le logo de la page🏠︎"
     },
 
     "option_vitesse": [
